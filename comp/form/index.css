@@ -5,9 +5,17 @@
   align-items: center;
   padding: 20px;
 }
-.form__title {
+.form-content {
 }
-.form__label {
+.form__title,
+.form__label,
+.form__input,
+.form__submit-cont {
+  font-family: "Poppins";
 }
-.form__input {
+
+.form__submit-cont {
+  display: flex;
+  justify-content: left;
+  margin-top: 15px;
 }

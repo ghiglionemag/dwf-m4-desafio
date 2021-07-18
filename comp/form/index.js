@@ -1,15 +1,14 @@
 function contactComponent(el) {
-
   const componentEl = document.createElement("div");
 
   componentEl.innerHTML = `
 
     <div class="form-container">
       <h2 class="form__title">Contactame</h2>
-      <form>
+      <form class="form-content">
         <label>
           <h3 class="form__label">Nombre</h3>
-          <input type="text" />
+          <input class="form__input" type="text" />
         </label>
         <label>
           <h3 class="form__label">Email</h3>
