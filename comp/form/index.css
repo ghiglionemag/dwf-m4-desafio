@@ -1,0 +1,13 @@
+.form-container {
+  background-color: black;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.form__title {
+}
+.form__label {
+}
+.form__input {
+}
