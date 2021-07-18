@@ -1,11 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
 .form-container {
   background-color: black;
   color: white;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
 }
 .form-content {
+  max-width: 750px;
+  padding: 20px;
 }
 .form__title,
 .form__label,

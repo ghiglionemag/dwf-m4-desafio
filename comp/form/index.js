@@ -1,12 +1,13 @@
 function contactComponent(el) {
-  const componentEl = document.createElement("div");
+  const componentEl = document.createElement("section");
 
   componentEl.innerHTML = `
 
-    <div class="form-container">
-      <h2 class="form__title">Contactame</h2>
+    <section class="form-container">
+      
       <form class="form-content">
-        <label>
+      <h2 class="form__title">Contactame</h2>
+      <label>
           <h3 class="form__label">Nombre</h3>
           <input class="form__input" type="text" />
         </label>
@@ -22,7 +23,7 @@ function contactComponent(el) {
           <button class="form__submit-button">Enviar</button>
         </div>
       </form>
-      </div>
+      </section>
     `;
 
   const form = componentEl.querySelector(".form-container");
