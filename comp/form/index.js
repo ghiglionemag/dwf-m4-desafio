@@ -6,7 +6,7 @@ function contactComponent(el) {
     <section class="form-container">
       
       <form class="form-content">
-      <h2 class="form__title">Contactame</h2>
+      <h2 class="form__title">Escribime</h2>
       <label>
           <h3 class="form__label">Nombre</h3>
           <input class="form__input" type="text" />

@@ -8,13 +8,21 @@ body {
 .form-container {
   background-color: black;
   color: white;
+  min-width: 345px;
   flex-direction: column;
   align-items: center;
 }
+@media (min-width: 769px) {
+  .form-container {
+    max-height: 700px;
+  }
+}
+
 .form-content {
   max-width: 750px;
   padding: 20px;
 }
+
 .form__title,
 .form__label,
 .form__input,
@@ -23,7 +31,17 @@ body {
 }
 
 .form__submit-cont {
-  display: flex;
-  justify-content: left;
   margin-top: 15px;
+}
+
+.form__input,
+.form__submit-button {
+  min-width: 100%;
+
+  border-style: 2px;
+}
+.form__submit-button {
+  background-color: yellow;
+  color: black;
+  border: black;
 }
