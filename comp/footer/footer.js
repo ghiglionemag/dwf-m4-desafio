@@ -1,4 +1,4 @@
-function componetFooter(el) {
+function footerComponent(el) {
   const componentEl = document.createElement("div");
   componentEl.innerHTML = `
   <div class="footer__content">

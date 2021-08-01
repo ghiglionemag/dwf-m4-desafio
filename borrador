@@ -230,3 +230,39 @@
 .icono-footer {
   padding: 10px;
 }
+
+
+
+<div class="servicios__card">
+          <img
+            class="servicios__img"
+            src="./img/servicios__img.svg"
+            alt="Computadora"
+          />
+          <h3 class="servicios__subtitle">Hago cosas</h3>
+          <p class="servicios__p">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="servicios__card">
+          <img
+            class="servicios__img"
+            src="./img/servicios__img.svg"
+            alt="Computadora"
+          />
+          <h3 class="servicios__subtitle">Hago cosas</h3>
+          <p class="servicios__p">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="servicios__card">
+          <img
+            class="servicios__img"
+            src="./img/servicios__img.svg"
+            alt="Computadora"
+          />
+          <h3 class="servicios__subtitle">Hago cosas</h3>
+          <p class="servicios__p">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>

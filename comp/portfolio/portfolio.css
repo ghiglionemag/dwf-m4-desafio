@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.title__container {
+  min-width: 345px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #000000;
+}
+.portfolio__container {
+  min-width: 345px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 50px;
+  height: 1375px;
+  background-color: #000000;
+}
+@media (min-width: 768px) {
+  .title__container {
+    height: 640px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    min-width: 100%;
+    background: linear-gradient(
+      107.17deg,
+      #958c40 29.35%,
+      rgba(156, 0, 210, 0.8) 78.73%
+    );
+  }
+  .portfolio__container {
+    justify-content: center;
+    height: 660px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0;
+  }
+}
+
+.portfolio__card {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (min-width: 768px) {
+  .portfolio__card {
+    margin-top: 25%;
+  }
+  .portfolio__title {
+    margin-left: 25px;
+  }
+}
+.portfolio__img {
+}
+.portfolio__title,
+.portfolio__subtitle,
+.portfolio__p {
+  font-family: "Poppins";
+  color: #ffffff;
+}
+
+.portfolio__p {
+  text-align: center;
+}

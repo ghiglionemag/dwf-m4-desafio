@@ -1,5 +1,11 @@
 function main(){
-    const contact = document.querySelector("body");
-    contactComponent(contact);
+    const header= document.querySelector(".header");
+  headerComponent(header);
+
+  const form = document.querySelector(".contactame");
+  contactComponent(form);
+
+  const footer = document.querySelector(".footer");
+  footerComponent(footer);
 }
 main();

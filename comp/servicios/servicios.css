@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.servicios {
+  height: 1375px;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.servicios__container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 50px;
+}
+@media (min-width: 768px) {
+  .servicios {
+    height: 660px;
+  }
+  .servicios__container {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.servicios__card {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.servicios__img {
+}
+.servicios__title,
+.servicios__subtitle,
+.servicios__p {
+  font-family: "Poppins";
+}
+
+.servicios__p {
+  text-align: center;
+}
