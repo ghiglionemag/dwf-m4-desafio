@@ -7,7 +7,7 @@ body {
 }
 .form-container {
   display: flex;
-  background-color: black;
+  background: #141414;
   color: white;
   min-width: 345px;
   flex-direction: column;
@@ -21,13 +21,17 @@ body {
 @media (min-width: 769px) {
   .form-container {
     max-height: 700px;
+    background: linear-gradient(
+      107.17deg,
+      #408195 29.35%,
+      rgba(0, 210, 135, 0.8) 78.73%
+    );
     flex-direction: row;
     justify-content: center;
   }
   .form-content {
     padding: 20px;
     width: 370px;
-    
   }
   .form__title {
     text-align: right;
@@ -46,7 +50,6 @@ body {
   height: 45px;
   background-color: #2c2c2c;
   color: #dbdbdb;
-  border: black;
 }
 .form__title,
 .form__label,
@@ -60,10 +63,9 @@ body {
 }
 
 .form__input,
-.form__submit-button {
-  min-width: 100%;
-
-  border-style: 2px;
-}
+.form__submit-cont,
 .form__input-text {
+  min-width: 100%;
+  border: 2px solid black;
+  border-radius: 4px;
 }

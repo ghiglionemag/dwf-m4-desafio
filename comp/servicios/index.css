@@ -6,7 +6,7 @@
     margin: 0;
   }
   
-  .title__container {
+  .servicios__title__container {
     min-width: 345px;
     display: flex;
     justify-content: space-evenly;
@@ -21,7 +21,7 @@
     background-color: #000000;
   }
   @media (min-width: 768px) {
-    .title__container {
+    .servicios__title__container {
       height: 640px;
       display: flex;
       align-items: center;

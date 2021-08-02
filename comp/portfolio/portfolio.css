@@ -6,7 +6,7 @@ body {
   margin: 0;
 }
 
-.title__container {
+.portfolio__title__container {
   min-width: 345px;
   display: flex;
   justify-content: space-evenly;
@@ -21,7 +21,7 @@ body {
   background-color: #000000;
 }
 @media (min-width: 768px) {
-  .title__container {
+  .portfolio__title__container {
     height: 640px;
     display: flex;
     align-items: center;

@@ -17,6 +17,11 @@ body {
   grid-template-rows: 1fr 1fr 1fr;
   row-gap: 50px;
 }
+.servicios__title__container {
+  min-width: 345px;
+  display: flex;
+  justify-content: space-evenly;
+}
 @media (min-width: 768px) {
   .servicios {
     height: 660px;
@@ -26,6 +31,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+  
 }
 
 .servicios__card {
