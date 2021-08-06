@@ -20,6 +20,9 @@
   .header__button-open {
     display: none;
   }
+  .header{
+  width: 100%;
+  }
 }
 
 .header__hamburguer-line {
