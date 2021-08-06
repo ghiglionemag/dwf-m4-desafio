@@ -2,6 +2,7 @@ function headerComponent(el) {
   const componentEl = document.createElement("header");
   componentEl.innerHTML = `  
     <header class="header">
+    <img class="header__logo" src="img/logo.png" alt="Logo agus" />
         <div class="header__ventana">
           <button class="header__button-close">X</button>
           <div class="header__ventana-links">
