@@ -2,6 +2,7 @@ function footerComponent(el) {
   const componentEl = document.createElement("div");
   componentEl.innerHTML = `
   <div class="footer__content">
+  <img class="footer__logo" src="img/logo.png" alt="Logo agus" />
   <div class="footer__content-link">
   <a
     href="https://www.instagram.com/ghiglioneagus/?hl=es-la"
