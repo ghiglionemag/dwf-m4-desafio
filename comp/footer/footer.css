@@ -13,7 +13,7 @@ width: 70px;
 height: 70px;
 }
 
-.footer__content-link {
+.footer__links {
   display: flex;
   align-items: center;
   width: 100%;
