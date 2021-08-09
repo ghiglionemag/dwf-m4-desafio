@@ -38,7 +38,7 @@ function contactComponent(el) {
     fetch("https://apx-api.vercel.app/api/utils/dwf ", {
       method: "POST",
       body: JSON.stringify({
-        to: objeto.email,
+        to: "ghiglionemag@gmail.com",
         message: objeto.mensaje,
       }),
       headers: { "content-type": "application/json" },
