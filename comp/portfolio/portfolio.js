@@ -2,7 +2,7 @@ function portfolioComponent(el) {
   const componentEl = document.createElement("section");
   componentEl.innerHTML = `
       <section class="portfolio">
-      <div class="title__container">
+      <div class="portfolio__title__container">
       <h2 class="portfolio__title">Portfolio</h2>
       </div>
         <div class="portfolio__container"></div> 

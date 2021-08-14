@@ -3,7 +3,7 @@ function serviciosComponent(el) {
   componentEl.innerHTML = `
     <section class="servicios">
     
-    <div class="title__container">
+    <div class="servicios__title__container">
       <h2 class="servicios__title">Servicios</h2>
       </div>
       <div class="servicios__container"></div> 
