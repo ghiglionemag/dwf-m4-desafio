@@ -1,21 +1,21 @@
 function serviciosComponent(el) {
   const componentEl = document.createElement("div");
   componentEl.innerHTML = `
-    <section class="servicios">
-    
-    <div class="servicios__title__container">
-      <h2 class="servicios__title">Servicios</h2>
-      </div>
-      <div class="servicios__container"></div> 
-  </section>
-  <template id="servicios__container">
-  <div class="servicios__card">
-      <img src="./img/servicios__img.svg" alt="Foto de servicios" class="servicios__img">
-      <h3 class="servicios__subtitle">Un servicio</h3>
-      <p class="servicios__p">algun servicio ejemplo Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam enim obcaecati nemo dolorem excepturi quo, unde architecto voluptatibus! Maxime officiis cumque veritatis, ullam esse nostrum velit. Veritatis dolorem vero quis!</p>
-  </div>
-  </template>
-    `;
+      <section class="servicios">
+      
+      <div class="servicios__title__container">
+        <h2 class="servicios__title">Portfolio</h2>
+        </div>
+        <div class="servicios__container"></div> 
+    </section>
+    <template id="servicios__container">
+    <div class="servicios__card">
+        <img src="./img/servicios__img.svg" alt="Foto de servicios" class="servicios__img">
+        <h3 class="servicios__subtitle">Un servicio</h3>
+        <p class="servicios__p">algun servicio ejemplo Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam enim obcaecati nemo dolorem excepturi quo, unde architecto voluptatibus! Maxime officiis cumque veritatis, ullam esse nostrum velit. Veritatis dolorem vero quis!</p>
+    </div>
+    </template>
+      `;
   function getServices() {
     return fetch(
       "https://cdn.contentful.com/spaces/s19mfhkp9p7q/environments/master/entries?access_token=dlOCIbgTx7E3HTFmXXiKRwSiiJMQvAjte5Xdn1ulYbM&content_type=servicios"

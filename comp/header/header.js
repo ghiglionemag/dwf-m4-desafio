@@ -11,14 +11,9 @@ function headerComponent(el) {
               >Home</a
             >
             <a
-              href="./portfolio.html"
-              class="header__ventana-link"
-              >Portfolio</a
-            >
-            <a
               href="./servicios.html"
               class="header__ventana-link"
-              >Servicios</a
+              >Portfolio</a
             >
             <a
               href="./contacto.html"
@@ -37,10 +32,7 @@ function headerComponent(el) {
             <a class="header__nav__link" href="./index.html">Home</a>
           </li>
           <li class="header__nav__item">
-            <a class="header__nav__link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="header__nav__item">
-            <a class="header__nav__link" href="./servicios.html">Servicios</a>
+            <a class="header__nav__link" href="./servicios.html">Portfolio</a>
           </li>
           <li class="header__nav__item">
             <a class="header__nav__link" href="./contacto.html">Contactame</a>
