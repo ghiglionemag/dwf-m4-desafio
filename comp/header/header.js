@@ -2,10 +2,14 @@ function headerComponent(el) {
   const componentEl = document.createElement("header");
   componentEl.innerHTML = `  
     <header class="header">
-    <img class="header__logo" src="img/logo.png" alt="Logo agus" />
         <div class="header__ventana">
           <button class="header__button-close">X</button>
           <div class="header__ventana-links">
+          <a
+              href="./index.html"
+              class="header__ventana-link"
+              >Home</a
+            >
             <a
               href="./portfolio.html"
               class="header__ventana-link"
@@ -29,6 +33,9 @@ function headerComponent(el) {
           <div class="header__hamburguer-line"></div>
           </button>
         <div class="header__nav">
+        <li class="header__nav__item">
+            <a class="header__nav__link" href="./index.html">Home</a>
+          </li>
           <li class="header__nav__item">
             <a class="header__nav__link" href="./portfolio.html">Portfolio</a>
           </li>
