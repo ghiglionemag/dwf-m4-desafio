@@ -7,7 +7,7 @@ function headerComponent(el) {
           <div class="header__ventana-links">
           <a
               href="./index.html"
-              class="header__ventana-link"
+              class="header__ventana-link" 
               >Home</a
             >
             <a
@@ -18,7 +18,7 @@ function headerComponent(el) {
             <a
               href="./contacto.html"
               class="header__ventana-link"
-              >Escribime</a
+              >Contactame</a
             >
           </div>
         </div>
@@ -29,13 +29,13 @@ function headerComponent(el) {
           </button>
         <div class="header__nav">
         <li class="header__nav__item">
-            <a class="header__nav__link" href="./index.html">Home</a>
+            <a class="header__nav__link home__nav" href="./index.html">Home</a>
           </li>
           <li class="header__nav__item">
-            <a class="header__nav__link" href="./servicios.html">Portfolio</a>
+            <a class="header__nav__link servicios__nav" href="./servicios.html">Portfolio</a>
           </li>
           <li class="header__nav__item">
-            <a class="header__nav__link" href="./contacto.html">Contactame</a>
+            <a class="header__nav__link contacto__nav" href="./contacto.html">Contactame</a>
           </li>
         </div>
       </header>
@@ -53,4 +53,15 @@ function headerComponent(el) {
   botonCierraVentanaEl.addEventListener("click", () => {
     ventanaEl.style.display = "";
   });
+
+  if (location.pathname.includes("index")) {
+    const link = document.querySelector(".home__nav");
+    link.classList.add("active");
+  } else if (location.pathname.includes("servicios")) {
+    const link = document.querySelector(".servicios__nav");
+    link.classList.add("active");
+  } else {
+    const link = document.querySelector(".contacto__nav");
+    link.classList.add("active");
+  }
 }

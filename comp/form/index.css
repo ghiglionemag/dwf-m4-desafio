@@ -7,7 +7,6 @@ body {
 }
 .form-container {
   display: flex;
-  background-color: black;
   color: white;
   min-width: 345px;
   flex-direction: column;
@@ -27,7 +26,6 @@ body {
   .form-content {
     padding: 20px;
     width: 370px;
-    
   }
   .form__title {
     text-align: right;
@@ -53,6 +51,7 @@ body {
 .form__input,
 .form__submit-cont {
   font-family: "Poppins";
+  color: #1d201f;
 }
 
 .form__submit-cont {

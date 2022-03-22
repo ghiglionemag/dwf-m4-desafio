@@ -1,13 +1,11 @@
 .header {
   width: 100%;
   height: 58px;
-  background-color: #D1DEDE;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: right;
 }
 
 .header__button-open {
-  background-color: #D1DEDE;
   border: none;
   text-decoration: none;
   display: grid;
@@ -29,7 +27,7 @@
 .header__hamburguer-line {
   width: 36px;
   height: 6px;
-  background-color: #1D201F;
+  background-color: #1d201f;
 }
 
 .header__nav {
@@ -55,12 +53,15 @@
   text-decoration: none;
   position: relative;
 }
+
 .header__nav__link:hover {
-  background-color: #DF928E;
+  background-color: #df928e;
   left: 10%;
   transition: transform 0.15s ease-in-out;
 }
-
+.active {
+  background: #ead2ac;
+}
 .header__ventana {
   display: flex;
   justify-content: center;
@@ -70,7 +71,6 @@
   bottom: 0px;
   left: 0px;
   right: 0px;
-
   background-color: #1D201F;
   display: none;
 }
@@ -80,15 +80,9 @@
   row-gap: 25px;
   text-align: center;
   font-family: "Poppins";
-  background: linear-gradient(to bottom, transparent 62%, var(--pink-color) 0)
-    center left/0% 75% no-repeat;
-  transition: background-size 0.3s ease;
-  color: white;
-  text-decoration: none;
 }
 .header__ventana-link {
   font-family: "Poppins";
-  color: #1D201F;
   text-decoration: none;
   text-align: center;
   font-size: 48px;
