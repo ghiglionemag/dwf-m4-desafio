@@ -4,7 +4,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #D1DEDE;
+  background-color: #d1dede;
 }
 .welcome {
   min-width: 345px;
@@ -15,7 +15,7 @@ body {
 }
 @media (max-width: 774px) {
   .welcome {
-    margin: 0% 0% 12% 0%
+    margin: 0% 0% 12% 0%;
   }
 }
 
@@ -23,13 +23,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 2% 0% 0% 0%;
 }
 
 .welcome__title,
 .welcome__subtitle {
   margin: 0px;
   font-family: "Poppins";
-  color: #1D201F;
+  color: #1d201f;
 }
 .about-me {
   min-width: 345px;
@@ -55,7 +56,7 @@ body {
 }
 @media (min-width: 751px) {
   .about-me {
-    height: 375px;
+    height: 485px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 50px;
@@ -70,7 +71,7 @@ body {
 .about-me__title,
 .about-me__p {
   font-family: "Poppins";
-  color: #1D201F;
+  color: #1d201f;
 }
 .about-me__title {
   text-align: center;

@@ -6,6 +6,7 @@ body {
   padding: 0px;
 }
 .form-container {
+  height: 585px;
   display: flex;
   color: white;
   min-width: 345px;
@@ -19,7 +20,6 @@ body {
 }
 @media (min-width: 769px) {
   .form-container {
-    max-height: 700px;
     flex-direction: row;
     justify-content: center;
   }
@@ -42,22 +42,25 @@ body {
 }
 .form__submit-button {
   height: 45px;
-  background-color: #1D201F;
+  width: 100%;
+  background-color: #2c2c2c;
   color: #dbdbdb;
+  border: black;
 }
 .form__title,
 .form__label,
 .form__input,
 .form__submit-cont {
   font-family: "Poppins";
+  color: #1d201f;
 }
 
 .form__submit-cont {
   margin-top: 15px;
+  min-width: 100%;
 }
 
 .form__input,
-.form__submit-cont,
 .form__input-text {
   min-width: 100%;
   border: 2px solid #1D201F;

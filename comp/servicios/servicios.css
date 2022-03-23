@@ -6,12 +6,11 @@ body {
   margin: 0;
 }
 .servicios {
-  height: 1375px;
   min-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 5% 0px 5% 0px;
+  margin: 3% 0px 3% 0px;
   padding: 0px 5% 0px 5%;
 }
 .servicios__container {
@@ -22,12 +21,14 @@ body {
 
 @media (min-width: 768px) {
   .servicios {
-    height: 660px;
   }
   .servicios__container {
+    max-height: 700px;
     margin-top: 25px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    grid-template-rows: 1fr;
   }
 }
 
@@ -37,6 +38,13 @@ body {
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
+  border-radius: 25px;
+  background-color: #df928e;
+}
+.servicios__card:hover {
+  background-color: #ead2ac;
+  border: solid 5px;
+  border-color: #df928e;
 }
 .servicios__img {
 }

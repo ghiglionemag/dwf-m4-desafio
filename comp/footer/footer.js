@@ -2,7 +2,6 @@ function footerComponent(el) {
   const componentEl = document.createElement("div");
   componentEl.innerHTML = `
   <div class="footer__content">
-  <img class="footer__logo" src="img/logo.png" alt="Logo agus" />
   <div class="footer__links">
   <a
     href="https://www.instagram.com/ghiglioneagus/?hl=es-la"
@@ -11,7 +10,7 @@ function footerComponent(el) {
       class="footer__icon"
       src="./img/footer__icon-instagram.svg"
       alt="Icono Instagram"
-    />Instagram</a
+    /></a
   >
   
   <a
@@ -21,7 +20,7 @@ function footerComponent(el) {
       class="footer__icon"
       src="./img//footer__icon-linkedin.svg"
       alt="Icono linkedIn"
-    />LinkedIn</a
+    /></a
   >
  
   <a href="https://github.com/ghiglionemag" class="footer__link"
@@ -29,7 +28,7 @@ function footerComponent(el) {
       class="footer__icon"
       src="./img//footer__icon-github.svg"
       alt="Icono GitHub"
-    />GitHub</a
+    /></a
   >
 </div>`;
 
