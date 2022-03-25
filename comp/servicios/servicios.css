@@ -39,12 +39,16 @@ body {
   flex-direction: column;
   justify-content: space-between;
   border-radius: 25px;
-  background-color: #df928e;
+  background: linear-gradient(
+    0deg,
+    rgba(223, 146, 142, 1) 49%,
+    rgba(234, 210, 172, 1) 76%,
+    rgba(209, 222, 222, 1) 100%
+  );
+  box-shadow: 0px 0px 8px 1px #1d201f;
 }
 .servicios__card:hover {
-  background-color: #ead2ac;
-  border: solid 5px;
-  border-color: #df928e;
+  border: solid 2px #1d201f;
 }
 .servicios__img {
 }
