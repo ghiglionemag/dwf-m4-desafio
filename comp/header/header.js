@@ -57,14 +57,11 @@ function headerComponent(el) {
   if (location.pathname.includes("index")) {
     const link = document.querySelector(".home__nav");
     link.classList.add("active");
-  } else if (location.pathname.includes("portfolio/servicios.html")) {
+  } else if (location.pathname.includes("servicios")) {
     const link = document.querySelector(".servicios__nav");
     link.classList.add("active");
-  } else if (location.pathname.includes("portfolio/contacto.html")) {
-    const link = document.querySelector(".contacto__nav");
-    link.classList.add("active");
   } else {
-    const link = document.querySelector(".home__nav");
+    const link = document.querySelector(".contacto__nav");
     link.classList.add("active");
   }
 }
