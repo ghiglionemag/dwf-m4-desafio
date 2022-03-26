@@ -54,7 +54,7 @@ function headerComponent(el) {
     ventanaEl.style.display = "";
   });
 
-  if (location.pathname.includes("index")) {
+  if (location.pathname.includes(/portfolio\/./)) {
     const link = document.querySelector(".home__nav");
     link.classList.add("active");
   } else if (location.pathname.includes("servicios")) {
