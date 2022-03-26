@@ -54,11 +54,14 @@ function headerComponent(el) {
     ventanaEl.style.display = "";
   });
 
-  if (location.pathname.includes("contactame")) {
-    const link = document.querySelector(".contacto__nav");
+  if (location.pathname.includes("index")) {
+    const link = document.querySelector(".home__nav");
     link.classList.add("active");
-  } else if (location.pathname.includes("servicios")) {
+  } else if (location.pathname.includes("portfolio/servicios.html")) {
     const link = document.querySelector(".servicios__nav");
+    link.classList.add("active");
+  } else if (location.pathname.includes("portfolio/contacto.html")) {
+    const link = document.querySelector(".contacto__nav");
     link.classList.add("active");
   } else {
     const link = document.querySelector(".home__nav");
