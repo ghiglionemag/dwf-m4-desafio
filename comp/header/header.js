@@ -54,14 +54,14 @@ function headerComponent(el) {
     ventanaEl.style.display = "";
   });
 
-  if (location.pathname.includes(/portfolio\/./)) {
-    const link = document.querySelector(".home__nav");
+  if (location.pathname.includes("contactame")) {
+    const link = document.querySelector(".contacto__nav");
     link.classList.add("active");
   } else if (location.pathname.includes("servicios")) {
     const link = document.querySelector(".servicios__nav");
     link.classList.add("active");
   } else {
-    const link = document.querySelector(".contacto__nav");
+    const link = document.querySelector(".home__nav");
     link.classList.add("active");
   }
 }
