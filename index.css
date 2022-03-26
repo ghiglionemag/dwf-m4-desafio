@@ -51,6 +51,7 @@
   .about-me {
     height: 680px;
     width: 100%;
+    padding: 20px;
   }
   .about-me__container {
   display: flex;

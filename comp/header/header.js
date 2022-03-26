@@ -60,7 +60,7 @@ function headerComponent(el) {
   } else if (location.pathname.includes("servicios")) {
     const link = document.querySelector(".servicios__nav");
     link.classList.add("active");
-  } else if (location.pathname.includes("servicios")) {
+  } else if (location.pathname.includes("contacto")) {
     const link = document.querySelector(".contacto__nav");
     link.classList.add("active");
   } else {
