@@ -9,11 +9,7 @@
   align-items: center;
   height: 2%;
 }
-@media (max-width: 774px) {
-  .welcome {
-    margin: 0% 0% 12% 0%;
-  }
-}
+
 
 .welcome__content {
   display: flex;
@@ -43,11 +39,8 @@
   border-radius: 25px;
   background: linear-gradient(
     90deg,
-    rgba(92, 96, 94, 1) 0%,
-    rgba(197, 136, 130, 1) 23%,
-    rgba(223, 146, 142, 1) 49%,
-    rgba(234, 210, 172, 1) 76%,
-    rgba(209, 222, 222, 1) 100%
+    rgba(234, 210, 172, 1) 50%,
+    #df928e 100%
   );
   box-shadow: 0px 0px 8px 1px #1d201f;
   border: solid 0, 5px #1d201f;
@@ -64,6 +57,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  width: 100%;
   }
 }
 .about-me__photo {
