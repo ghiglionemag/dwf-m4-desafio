@@ -4,12 +4,13 @@ function serviciosComponent(el) {
   <section class="servicios">
   <div class="servicios__container">
        <template id="servicios__container">
-           <div class="servicios__card">
+       <a href="" class="servicios_url">
+           <div class="servicios__card" >
    <img src="./img/servicios__img.svg" alt="Foto de servicios" class="servicios__img">
    <h3 class="servicios__subtitle">Un servicio</h3>
    <p class="servicios__p">algun servicio ejemplo Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam enim obcaecati nemo dolorem excepturi quo, unde architecto voluptatibus! Maxime officiis cumque veritatis, ullam esse nostrum velit. Veritatis dolorem vero quis!</p>
            </div>
-   
+           </a>
          </template>
    </div>
 <section>
@@ -24,6 +25,7 @@ function serviciosComponent(el) {
       .then((data) => {
         const fieldsCollections = data.items.map((item) => {
           return {
+            url: item.fields.url,
             title: item.fields.tituloServicio,
             description: item.fields.descripcionServicio,
           };
@@ -36,6 +38,8 @@ function serviciosComponent(el) {
   function addServiceCard(params = {}) {
     const template = componentEl.querySelector("#servicios__container");
     const container = componentEl.querySelector(".servicios__container");
+
+    template.content.querySelector(".servicios_url").href = params.url;
 
     template.content.querySelector(".servicios__subtitle").textContent =
       params.title;

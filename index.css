@@ -1,7 +1,11 @@
 * {
   box-sizing: border-box;
 }
-
+a {
+  outline: none;
+  text-decoration: none; 
+  color: #1d201f;
+} 
 .welcome {
   min-width: 345px;
   display: flex;
